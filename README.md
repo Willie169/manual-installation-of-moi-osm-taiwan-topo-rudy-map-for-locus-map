@@ -1,16 +1,20 @@
 ## 手動安裝魯地圖於 Locus Map / Manual Installation of MOI OSM Taiwan TOPO Rudy Map for Locus Map
 
+注意：這是手動安裝的教學，適用於因隱私考量或其他原因不希望 Locus Map 取得網路連線或其他希望手動安裝的人。對於大多數人，自動安裝是更方便的選項，你可以前往 <https://rudymap.tw>、<https://moi.kcwu.csie.org/taiwan_topo.html> 或 <https://map.happyman.idv.tw/rudy/taiwan_topo.html> 並點擊自動安裝下的連結。自動安裝時 Locus Map 需要網路連線。
+
+Caution: This is manual installation instruction designed for people who do not want Locus Map to have internet connection due to privacy consideration or other reasons or other people who want to manually install it. For most people, automatic installation is a more convenient option, you can go to <https://rudymap.tw>, <https://moi.kcwu.csie.org/taiwan_topo.html>, or <https://map.happyman.idv.tw/rudy/taiwan_topo.html> and click links under 自動安裝 (automatic installation). Locus Map needs internet connection during automatic installation.
+
 ### 中文繁體
 
 <ol>
-<li>前往 Google Play Store 並安裝 <a href="https://play.google.com/store/apps/details?id=menion.android.locu">Locus Map</a>。</li>
+<li>前往 Google Play Store 並安裝 <a href="https://play.google.com/store/apps/details?id=menion.android.locu">Locus Map</a>。如果你想要並知道怎麼做，你可以在安裝後立即通過 VPN 應用程式、root 或 GrapheneOS 等第三方 ROM 的選項停用 Locus Map 的網路連線權限。</li>
 <li>前往 <a href="https://rudymap.tw">https://rudymap.tw</a>、<a href="https://moi.kcwu.csie.org/taiwan_topo.html">https://moi.kcwu.csie.org/taiwan_topo.html</a> 或 <a href="https://map.happyman.idv.tw/rudy/taiwan_topo.html">https://map.happyman.idv.tw/rudy/taiwan_topo.html</a>，在 Mapsforge 手動下載自行安裝下，下載：（如果自動分流下載失敗，請點擊一個 mirror）<ul>
 <li>Map：你會獲得 <code>MOI_OSM_Taiwan_TOPO_Rudy.map.zip</code>。解壓縮它。</li>
 <li>Locus Style：你會獲得 <code>MOI_OSM_Taiwan_TOPO_Rudy_locus_style.zip</code>。解壓縮它。</li>
 <li>DEM mix：你會獲得 <code>hgtmix.zip</code>。解壓縮它。</li>
 </ul>
 </li>
-<li>透過 Shizuku、Termux 或電腦前往 ADB shell。對於 Shizuku，推薦使用 <a href="https://github.com/thedjchi/Shizuku">thedjchi 的 Shizuku 分支</a>。對於中文教學，請參考 <a href="https://ivonblog.com/posts/android-shizuku">Ivon的部落格</a>。</li>
+<li>透過 Shizuku、Termux 或電腦前往 ADB shell。對於 Shizuku，推薦使用 <a href="https://github.com/thedjchi/Shizuku">thedjchi 的 Shizuku 分支</a>。如果你想要中文指引，請參考 <a href="https://ivonblog.com/posts/android-shizuku">Ivon的部落格</a>。</li>
 <li>在 ADB shell 中，執行以下命令：<pre><code>cp -r /storage/emulated/0/Download/moi_osm_taiwan_topo_rudy.map /storage/emulated/0/Android/data/menion.android.locus/files/Locus/mapsVector
 cp -r /storage/emulated/0/Download/MOI_OSM_Taiwan_TOPO_Rudy_style /storage/emulated/0/Android/data/menion.android.locus/files/Locus/mapsVector/_themes
 cp /storage/emulated/0/Download/hgtmix/* /storage/emulated/0/Android/data/menion.android.locus/files/Locus/data/srtm
@@ -31,14 +35,14 @@ cp /storage/emulated/0/Download/hgtmix/* /storage/emulated/0/Android/data/menion
 ### English
 
 <ol>
-<li>Go to Google Play Store and install <a href="https://play.google.com/store/apps/details?id=menion.android.locus">Locus Map</a>.</li>
-<li>Go to <a href="https://rudymap.tw">https://rudymap.tw</a>, <a href="https://moi.kcwu.csie.org/taiwan_topo.html">https://moi.kcwu.csie.org/taiwan_topo.html</a>, or <a href="https://map.happyman.idv.tw/rudy/taiwan_topo.html">https://map.happyman.idv.tw/rudy/taiwan_topo.html</a>, under Mapsforge 手動下載自行安裝, download: (click a mirror if 自動分流 doesn&#39;t work)<ul>
+<li>Go to Google Play Store and install <a href="https://play.google.com/store/apps/details?id=menion.android.locus">Locus Map</a>. If you want and know what to do, you can disable the network connection permission of Locus Map immediately after installation through a VPN app, root, or options of third-party ROMs such as GrapheneOS.</li>
+<li>Go to <a href="https://rudymap.tw">https://rudymap.tw</a>, <a href="https://moi.kcwu.csie.org/taiwan_topo.html">https://moi.kcwu.csie.org/taiwan_topo.html</a>, or <a href="https://map.happyman.idv.tw/rudy/taiwan_topo.html">https://map.happyman.idv.tw/rudy/taiwan_topo.html</a>, under Mapsforge 手動下載自行安裝 (manual download and install by yourself), download: (click a mirror if 自動分流 (automatic traffic splitting) doesn&#39;t work)<ul>
 <li>Map: You will get <code>MOI_OSM_Taiwan_TOPO_Rudy.map.zip</code>. Extract it.</li>
 <li>Locus Style: You will get <code>MOI_OSM_Taiwan_TOPO_Rudy_locus_style.zip</code>. Extract it.</li>
 <li>DEM mix: You will get <code>hgtmix.zip</code>. Extract it.</li>
 </ul>
 </li>
-<li>Go to ADB shell via Shizuku, Termux or PC. For Shizuku, it is recommended to use <a href="https://github.com/thedjchi/Shizuku">thedjchi&#39;s fork of Shizuku</a>. Refer to <a href="https://ivonblog.com/posts/android-shizuku">Ivon的部落格</a> for guides in Chinese.</li>
+<li>Go to ADB shell via Shizuku, Termux or PC. For Shizuku, it is recommended to use <a href="https://github.com/thedjchi/Shizuku">thedjchi&#39;s fork of Shizuku</a>. Refer to <a href="https://ivonblog.com/posts/android-shizuku">Ivon's Blog</a> if you want guide in Chinese.</li>
 <li>Inside ADB shell, execute the following commands:<pre><code>cp -r /storage/emulated/0/Download/moi_osm_taiwan_topo_rudy.map /storage/emulated/0/Android/data/menion.android.locus/files/Locus/mapsVector
 cp -r /storage/emulated/0/Download/MOI_OSM_Taiwan_TOPO_Rudy_style /storage/emulated/0/Android/data/menion.android.locus/files/Locus/mapsVector/_themes
 cp /storage/emulated/0/Download/hgtmix/* /storage/emulated/0/Android/data/menion.android.locus/files/Locus/data/srtm
