@@ -32,7 +32,7 @@ cp /storage/emulated/0/Download/hgtmix/* /storage/emulated/0/Android/data/menion
 
 <ol>
 <li>Go to Google Play Store and install <a href="https://play.google.com/store/apps/details?id=menion.android.locus">Locus Map</a>.</li>
-<li>Go to <a href="https://rudymap.tw">https://rudymap.tw</a>,<a href="https://moi.kcwu.csie.org/taiwan_topo.html">https://moi.kcwu.csie.org/taiwan_topo.html</a>, or <a href="https://map.happyman.idv.tw/rudy/taiwan_topo.html">https://map.happyman.idv.tw/rudy/taiwan_topo.html</a>, under Mapsforge 手動下載自行安裝, download: (click a mirror if 自動分流 doesn&#39;t work)<ul>
+<li>Go to <a href="https://rudymap.tw">https://rudymap.tw</a>, <a href="https://moi.kcwu.csie.org/taiwan_topo.html">https://moi.kcwu.csie.org/taiwan_topo.html</a>, or <a href="https://map.happyman.idv.tw/rudy/taiwan_topo.html">https://map.happyman.idv.tw/rudy/taiwan_topo.html</a>, under Mapsforge 手動下載自行安裝, download: (click a mirror if 自動分流 doesn&#39;t work)<ul>
 <li>Map: You will get <code>MOI_OSM_Taiwan_TOPO_Rudy.map.zip</code>. Extract it.</li>
 <li>Locus Style: You will get <code>MOI_OSM_Taiwan_TOPO_Rudy_locus_style.zip</code>. Extract it.</li>
 <li>DEM mix: You will get <code>hgtmix.zip</code>. Extract it.</li>
