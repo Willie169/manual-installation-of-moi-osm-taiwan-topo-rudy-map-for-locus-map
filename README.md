@@ -29,7 +29,7 @@ cp /storage/emulated/0/Download/hgtmix/* /storage/emulated/0/Android/data/menion
 </ol>
 
 雜項：
-- 點擊左下角的三橫線按鈕，上滑， 點擊設定，即可進入設定。
+- 點擊左下角的三橫線按鈕，上滑，點擊設定，即可進入設定。
 - 以上假設 Locus Map 主目錄為 'Android/data'中的私人資料夾，即 `/storage/emulated/0/Android/data/menion.android.locus`，即 Locus Map 預設行為。若你在 Locus Map 應用程式內設定 > 備份 & 檔案系統 > 檔案系統管理器 > 設定主目錄選擇的是 'Android/media'中的私人資料夾，則須將以上命令中的 `/storage/emulated/0/Android/data/menion.android.locus` 改為 `/storage/emulated/0/Android/media/menion.android.locus`。
 - 語言和單位可在 Locus Map 應用程式內設定 > 語言 & 單位中調整。臺灣的常用單位為公制距離、攝氏溫度和公斤重量。
 
