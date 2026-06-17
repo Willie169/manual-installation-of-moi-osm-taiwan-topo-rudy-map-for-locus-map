@@ -1,6 +1,6 @@
 ## 手動安裝魯地圖於 Locus Map / Manual Installation of MOI OSM Taiwan TOPO Rudy Map for Locus Map
 
-注意：這是手動安裝的教學，適用於因隱私考量或其他原因不希望 Locus Map 取得網路連線或其他希望手動安裝的人。對於大多數人，自動安裝是更方便的選項，你可以前往 <https://rudymap.tw>、<https://moi.kcwu.csie.org/taiwan_topo.html> 或 <https://map.happyman.idv.tw/rudy/taiwan_topo.html> 並點擊自動安裝下的連結。自動安裝時 Locus Map 需要網路連線。
+注意：這是手動安裝的教學，適用於因隱私考量或其他原因不想要 Locus Map 取得網路連線或其他想要手動安裝的人。對於大多數人，自動安裝是更方便的選項，你可以前往 <https://rudymap.tw>、<https://moi.kcwu.csie.org/taiwan_topo.html> 或 <https://map.happyman.idv.tw/rudy/taiwan_topo.html> 並點擊自動安裝下的連結。自動安裝時 Locus Map 需要網路連線。
 
 Caution: This is manual installation instruction designed for people who do not want Locus Map to have internet connection due to privacy consideration or other reasons or other people who want to manually install it. For most people, automatic installation is a more convenient option, you can go to <https://rudymap.tw>, <https://moi.kcwu.csie.org/taiwan_topo.html>, or <https://map.happyman.idv.tw/rudy/taiwan_topo.html> and click links under 自動安裝 (automatic installation). Locus Map needs internet connection during automatic installation.
 
