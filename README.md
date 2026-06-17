@@ -1,13 +1,13 @@
 ## 手動安裝魯地圖於 Locus Map / Manual Installation of MOI OSM Taiwan TOPO Rudy Map for Locus Map
 
-注意：這是手動安裝的教學，適用於因隱私考量或其他原因不想要 Locus Map 取得網路連線或其他想要手動安裝的人。對於大多數人，自動安裝是更方便的選項，你可以前往 <https://rudymap.tw>、<https://moi.kcwu.csie.org/taiwan_topo.html> 或 <https://map.happyman.idv.tw/rudy/taiwan_topo.html> 並點擊自動安裝下的連結。自動安裝時 Locus Map 需要網路連線。
+注意：這是手動安裝的教學，適用於因隱私考量或其他原因不想要 Locus Map 取得網路連線或其他想要手動安裝的人。對於大多數人，自動安裝是更方便的選項，你可以前往 Google Play Store 並安裝 [Locus Map](https://play.google.com/store/apps/details?id=menion.android.locus)，接著前往 <https://rudymap.tw>、<https://moi.kcwu.csie.org/taiwan_topo.html> 或 <https://map.happyman.idv.tw/rudy/taiwan_topo.html> 並點擊自動安裝下的連結。自動安裝時 Locus Map 需要網路連線。
 
-Caution: This is manual installation instruction designed for people who do not want Locus Map to have internet connection due to privacy consideration or other reasons or other people who want to manually install it. For most people, automatic installation is a more convenient option, you can go to <https://rudymap.tw>, <https://moi.kcwu.csie.org/taiwan_topo.html>, or <https://map.happyman.idv.tw/rudy/taiwan_topo.html> and click links under 自動安裝 (automatic installation). Locus Map needs internet connection during automatic installation.
+Caution: This is manual installation instruction designed for people who do not want Locus Map to have internet connection due to privacy consideration or other reasons or other people who want to manually install it. For most people, automatic installation is a more convenient option, you can go to Google Play Store and install [Locus Map](https://play.google.com/store/apps/details?id=menion.android.locus), and then go to <https://rudymap.tw>, <https://moi.kcwu.csie.org/taiwan_topo.html>, or <https://map.happyman.idv.tw/rudy/taiwan_topo.html> and click links under 自動安裝 (automatic installation). Locus Map needs internet connection during automatic installation.
 
 ### 中文繁體
 
 <ol>
-<li>前往 Google Play Store 並安裝 <a href="https://play.google.com/store/apps/details?id=menion.android.locu">Locus Map</a>。</li>
+<li>前往 Google Play Store 並安裝 <a href="https://play.google.com/store/apps/details?id=menion.android.locus">Locus Map</a>。</li>
 <li>如果你想要並知道怎麼做，你可以在安裝後立即通過 VPN 應用程式、root 或 GrapheneOS 等第三方 ROM 的選項停用 Locus Map 的網路連線權限。如果你不知道它代表什麼，請跳過這個步驟。</li>
 <li>前往 <a href="https://rudymap.tw">https://rudymap.tw</a>、<a href="https://moi.kcwu.csie.org/taiwan_topo.html">https://moi.kcwu.csie.org/taiwan_topo.html</a> 或 <a href="https://map.happyman.idv.tw/rudy/taiwan_topo.html">https://map.happyman.idv.tw/rudy/taiwan_topo.html</a>，在 Mapsforge 手動下載自行安裝下，下載：（如果自動分流下載失敗，請點擊一個 mirror）<ul>
 <li>Map：你會獲得 <code>MOI_OSM_Taiwan_TOPO_Rudy.map.zip</code>。解壓縮它。</li>
