@@ -7,7 +7,8 @@ Caution: This is manual installation instruction designed for people who do not 
 ### 中文繁體
 
 <ol>
-<li>前往 Google Play Store 並安裝 <a href="https://play.google.com/store/apps/details?id=menion.android.locu">Locus Map</a>。如果你想要並知道怎麼做，你可以在安裝後立即通過 VPN 應用程式、root 或 GrapheneOS 等第三方 ROM 的選項停用 Locus Map 的網路連線權限。</li>
+<li>前往 Google Play Store 並安裝 <a href="https://play.google.com/store/apps/details?id=menion.android.locu">Locus Map</a>。</li>
+<li>如果你想要並知道怎麼做，你可以在安裝後立即通過 VPN 應用程式、root 或 GrapheneOS 等第三方 ROM 的選項停用 Locus Map 的網路連線權限。如果你不知道它代表什麼，請跳過這個步驟。</li>
 <li>前往 <a href="https://rudymap.tw">https://rudymap.tw</a>、<a href="https://moi.kcwu.csie.org/taiwan_topo.html">https://moi.kcwu.csie.org/taiwan_topo.html</a> 或 <a href="https://map.happyman.idv.tw/rudy/taiwan_topo.html">https://map.happyman.idv.tw/rudy/taiwan_topo.html</a>，在 Mapsforge 手動下載自行安裝下，下載：（如果自動分流下載失敗，請點擊一個 mirror）<ul>
 <li>Map：你會獲得 <code>MOI_OSM_Taiwan_TOPO_Rudy.map.zip</code>。解壓縮它。</li>
 <li>Locus Style：你會獲得 <code>MOI_OSM_Taiwan_TOPO_Rudy_locus_style.zip</code>。解壓縮它。</li>
@@ -35,7 +36,8 @@ cp /storage/emulated/0/Download/hgtmix/* /storage/emulated/0/Android/data/menion
 ### English
 
 <ol>
-<li>Go to Google Play Store and install <a href="https://play.google.com/store/apps/details?id=menion.android.locus">Locus Map</a>. If you want and know what to do, you can disable the network connection permission of Locus Map immediately after installation through a VPN app, root, or options of third-party ROMs such as GrapheneOS.</li>
+<li>Go to Google Play Store and install <a href="https://play.google.com/store/apps/details?id=menion.android.locus">Locus Map</a>.</li>
+<li>If you want and know how to do, you can disable the network connection permission of Locus Map immediately after installation through a VPN app, root, or options of third-party ROMs such as GrapheneOS. Skip this step if you don't know what it means.</li>
 <li>Go to <a href="https://rudymap.tw">https://rudymap.tw</a>, <a href="https://moi.kcwu.csie.org/taiwan_topo.html">https://moi.kcwu.csie.org/taiwan_topo.html</a>, or <a href="https://map.happyman.idv.tw/rudy/taiwan_topo.html">https://map.happyman.idv.tw/rudy/taiwan_topo.html</a>, under Mapsforge 手動下載自行安裝 (manual download and install by yourself), download: (click a mirror if 自動分流 (automatic traffic splitting) doesn&#39;t work)<ul>
 <li>Map: You will get <code>MOI_OSM_Taiwan_TOPO_Rudy.map.zip</code>. Extract it.</li>
 <li>Locus Style: You will get <code>MOI_OSM_Taiwan_TOPO_Rudy_locus_style.zip</code>. Extract it.</li>
