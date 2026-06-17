@@ -4,24 +4,29 @@
 
 <ol>
 <li>前往 Google Play Store 並安裝 <a href="https://play.google.com/store/apps/details?id=menion.android.locu">Locus Map</a>。</li>
-<li>前往 <a href="https://rudymap.tw">https://rudymap.tw</a>，在 Mapsforge 手動下載自行安裝下，下載：（如果自動分流無效，點擊一個 mirror）<ul>
+<li>前往 <a href="https://rudymap.tw">https://rudymap.tw</a>，在 Mapsforge 手動下載自行安裝下，下載：（如果自動分流下載失敗，請點擊一個 mirror）<ul>
 <li>Map：你會獲得 <code>MOI_OSM_Taiwan_TOPO_Rudy.map.zip</code>。解壓縮它。</li>
 <li>Locus Style：你會獲得 <code>MOI_OSM_Taiwan_TOPO_Rudy_locus_style.zip</code>。解壓縮它。</li>
 <li>DEM mix：你會獲得 <code>hgtmix.zip</code>。解壓縮它。</li>
 </ul>
 </li>
 <li>透過 Shizuku、Termux 或電腦前往 ADB shell。對於 Shizuku，推薦使用 <a href="https://github.com/thedjchi/Shizuku">thedjchi 的 Shizuku 分支</a>。對於中文教學，參考 <a href="https://ivonblog.com/posts/android-shizuku">Ivon的部落格</a>。</li>
-<li>在 ADB shell 中，執行：<pre><code>cp -r <span class="hljs-regexp">/storage/</span>emulated<span class="hljs-regexp">/0/</span>Download<span class="hljs-regexp">/moi_osm_taiwan_topo_rudy.map /</span>storage<span class="hljs-regexp">/emulated/</span><span class="hljs-number">0</span><span class="hljs-regexp">/Android/</span>data<span class="hljs-regexp">/menion.android.locus/</span>files<span class="hljs-regexp">/Locus/</span>mapsVector
-cp -r <span class="hljs-regexp">/storage/</span>emulated<span class="hljs-regexp">/0/</span>Download<span class="hljs-regexp">/MOI_OSM_Taiwan_TOPO_Rudy_style /</span>storage<span class="hljs-regexp">/emulated/</span><span class="hljs-number">0</span><span class="hljs-regexp">/Android/</span>data<span class="hljs-regexp">/menion.android.locus/</span>files<span class="hljs-regexp">/Locus/</span>mapsVector/_themes
-cp <span class="hljs-regexp">/storage/</span>emulated<span class="hljs-regexp">/0/</span>Download<span class="hljs-regexp">/hgtmix/</span>* <span class="hljs-regexp">/storage/</span>emulated<span class="hljs-regexp">/0/</span>Android<span class="hljs-regexp">/data/</span>menion.android.locus<span class="hljs-regexp">/files/</span>Locus<span class="hljs-regexp">/data/</span>srtm
+<li>在 ADB shell 中，執行以下命令：<pre><code>cp -r /storage/emulated/0/Download/moi_osm_taiwan_topo_rudy.map /storage/emulated/0/Android/data/menion.android.locus/files/Locus/mapsVector
+cp -r /storage/emulated/0/Download/MOI_OSM_Taiwan_TOPO_Rudy_style /storage/emulated/0/Android/data/menion.android.locus/files/Locus/mapsVector/_themes
+cp /storage/emulated/0/Download/hgtmix/* /storage/emulated/0/Android/data/menion.android.locus/files/Locus/data/srtm
 </code></pre></li>
 <li>打開 Locus Map。<ol>
 <li>點擊左下角的雙菱形按鈕。</li>
-<li>點擊左側選單中 Maps 下的 LoMaps Online。</li>
-<li>點擊 MOI OSM Taiwan TOPO Rudy。</li>
+<li>點擊左側選單中地圖下的 LoMaps Online。</li>
+<li>點擊智慧型選擇 - 離線下的 MOI OSM Taiwan TOPO Rudy。</li>
 </ol>
 </li>
 </ol>
+
+雜項：
+- 點擊左下角的三橫線按鈕，上滑， 點擊設定，即可進入設定。
+- 以上假設 Locus Map 主目錄為 'Android/data'中的私人資料夾，即 `/storage/emulated/0/Android/data/menion.android.locus`，即 Locus Map 預設行為。若你在 Locus Map 應用程式內設定 > 備份 & 檔案系統 > 檔案系統管理器 > 設定主目錄選擇的是 'Android/media'中的私人資料夾，則須將以上命令中的 `/storage/emulated/0/Android/data/menion.android.locus` 改為 `/storage/emulated/0/Android/media/menion.android.locus`。
+- 語言和單位可在 Locus Map 應用程式內設定 > 語言 & 單位中調整。臺灣的常用單位為公制距離、攝氏溫度和公斤重量。
 
 ### English
 
@@ -34,17 +39,22 @@ cp <span class="hljs-regexp">/storage/</span>emulated<span class="hljs-regexp">/
 </ul>
 </li>
 <li>Go to ADB shell via Shizuku, Termux or PC. For Shizuku, it is recommended to use <a href="https://github.com/thedjchi/Shizuku">thedjchi&#39;s fork of Shizuku</a>. Refer to <a href="https://ivonblog.com/posts/android-shizuku">Ivon的部落格</a> for guides in Chinese.</li>
-<li>Inside ADB shell, run<pre><code>cp -r <span class="hljs-regexp">/storage/</span>emulated<span class="hljs-regexp">/0/</span>Download<span class="hljs-regexp">/moi_osm_taiwan_topo_rudy.map /</span>storage<span class="hljs-regexp">/emulated/</span><span class="hljs-number">0</span><span class="hljs-regexp">/Android/</span>data<span class="hljs-regexp">/menion.android.locus/</span>files<span class="hljs-regexp">/Locus/</span>mapsVector
-cp -r <span class="hljs-regexp">/storage/</span>emulated<span class="hljs-regexp">/0/</span>Download<span class="hljs-regexp">/MOI_OSM_Taiwan_TOPO_Rudy_style /</span>storage<span class="hljs-regexp">/emulated/</span><span class="hljs-number">0</span><span class="hljs-regexp">/Android/</span>data<span class="hljs-regexp">/menion.android.locus/</span>files<span class="hljs-regexp">/Locus/</span>mapsVector/_themes
-cp <span class="hljs-regexp">/storage/</span>emulated<span class="hljs-regexp">/0/</span>Download<span class="hljs-regexp">/hgtmix/</span>* <span class="hljs-regexp">/storage/</span>emulated<span class="hljs-regexp">/0/</span>Android<span class="hljs-regexp">/data/</span>menion.android.locus<span class="hljs-regexp">/files/</span>Locus<span class="hljs-regexp">/data/</span>srtm
+<li>Inside ADB shell, execute the following commands:<pre><code>cp -r /storage/emulated/0/Download/moi_osm_taiwan_topo_rudy.map /storage/emulated/0/Android/data/menion.android.locus/files/Locus/mapsVector
+cp -r /storage/emulated/0/Download/MOI_OSM_Taiwan_TOPO_Rudy_style /storage/emulated/0/Android/data/menion.android.locus/files/Locus/mapsVector/_themes
+cp /storage/emulated/0/Download/hgtmix/* /storage/emulated/0/Android/data/menion.android.locus/files/Locus/data/srtm
 </code></pre></li>
 <li>Open Locus Map.<ol>
 <li>Press the double diamond button in the lower left corner.</li>
 <li>Click LoMaps Online under Maps in the left menu.</li>
-<li>Click MOI OSM Taiwan TOPO Rudy.</li>
+<li>Click MOI OSM Taiwan TOPO Rudy under Smart choice - Offline.</li>
 </ol>
 </li>
 </ol>
+
+Miscellaneous:
+- In Locus Map app, click the three-line button in the lower left corner, scroll up, and click Settings to enter Settings.
+- It is assumed above that the main directory of Locus Map is Private folder in 'Android/data', that is, `/storage/emulated/0/Android/data/menion.android.locus`, which is the default behavior of Locus Map. If you choose Private folder in 'Android/media' in Settings > Backup & filesystem > File system manager > Set the main directory in Locus Map app, then you need to replace `/storage/emulated/0/Android/data/menion.android.locus` in the commands above with `/storage/emulated/0/Android/media/menion.android.locus`.
+- Language and units can be adjusted in Settings > Language & Units in Locus Map app. The commonly used units in Taiwan are metric distance, Celsius temperature, and kilogram weight.
 
 ### 來源 / Sources
 
