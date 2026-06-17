@@ -10,7 +10,7 @@
 <li>DEM mix：你會獲得 <code>hgtmix.zip</code>。解壓縮它。</li>
 </ul>
 </li>
-<li>透過 Shizuku、Termux 或電腦前往 ADB shell。對於 Shizuku，推薦使用 <a href="https://github.com/thedjchi/Shizuku">thedjchi 的 Shizuku 分支</a>。對於中文教學，參考 <a href="https://ivonblog.com/posts/android-shizuku">Ivon的部落格</a>。</li>
+<li>透過 Shizuku、Termux 或電腦前往 ADB shell。對於 Shizuku，推薦使用 <a href="https://github.com/thedjchi/Shizuku">thedjchi 的 Shizuku 分支</a>。對於中文教學，請參考 <a href="https://ivonblog.com/posts/android-shizuku">Ivon的部落格</a>。</li>
 <li>在 ADB shell 中，執行以下命令：<pre><code>cp -r /storage/emulated/0/Download/moi_osm_taiwan_topo_rudy.map /storage/emulated/0/Android/data/menion.android.locus/files/Locus/mapsVector
 cp -r /storage/emulated/0/Download/MOI_OSM_Taiwan_TOPO_Rudy_style /storage/emulated/0/Android/data/menion.android.locus/files/Locus/mapsVector/_themes
 cp /storage/emulated/0/Download/hgtmix/* /storage/emulated/0/Android/data/menion.android.locus/files/Locus/data/srtm
